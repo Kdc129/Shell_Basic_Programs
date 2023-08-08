@@ -1,0 +1,11 @@
+#!/bin/bash
+
+read -p "Enter a single character ::" ch
+
+case $ch in
+[a-zA-Z])  echo "Its is an Alphabet Number"
+;;
+[0-9])  echo "Its is an digit"
+;;
+[^a-zA-Z0-9])
+       echo  "It is a special sy
